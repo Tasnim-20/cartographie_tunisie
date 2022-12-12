@@ -4,7 +4,7 @@ Projet réalisé en language R
 Les données sont officielles obtenues à partir de l'institut national des statistiques Tunisie (INS.tn)
 
 On aura besoin d'installer les libraries suivantes:
-library(dplyr) \n
+library(dplyr)
 library(maptools)
 library(sp)
 library(shapefiles)
