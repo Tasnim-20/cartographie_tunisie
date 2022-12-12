@@ -22,8 +22,8 @@ tun <- getData("GADM", country="TUN", level=1)
 tun$nb <- donnees$nb
 
 #déterminer le nom et le nombre selon chaque gouvernorate en cliquant sur la gouvernorat
-polygon_popup <- paste0("<strong>Name: </strong>", donnees$city, "<br>",
-                        "<strong>Indicator: </strong>", round(donnees$nb,2))
+polygon_popup <- paste0("<strong>gouvernorat: </strong>", donnees$city, "<br>",
+                        "<strong>Nombre: </strong>", round(donnees$nb,2))
 
 #choit des couleur de la carte pour mettre en valeur la variation
 pal<-colorNumeric(
